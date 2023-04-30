@@ -1,11 +1,15 @@
-version: '3'
+version: '3.8'
 
 services:
-   python3:
-    restart: always
-    build: .
+  python3:
+    build:
+      context: ./
+      dockerfile: Dockerfile
     container_name: 'python3'
-    working_dir: '/root/'
+    restart: always
     tty: true
     volumes:
-      - ./opt:/root/opt
+      - .:/usr/src/app
+volumes:
+  python3-vpn:
+    driver: local
