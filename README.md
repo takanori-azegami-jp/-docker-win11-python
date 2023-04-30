@@ -22,7 +22,7 @@ DockerでPython実行環境を構築（Windows11）
 
 ## コンテナでPython実行
 ~~~console
-$ python [ファイル名].py
+$ python run.py
 ~~~
 
 ## 参考
