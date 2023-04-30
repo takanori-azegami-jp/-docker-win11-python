@@ -1,2 +1,1 @@
-#!/usr/bin/env python
-print("Python code here")
+print("Hello, world!")
