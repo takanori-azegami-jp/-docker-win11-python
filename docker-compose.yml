@@ -11,5 +11,5 @@ services:
     volumes:
       - .:/usr/src/app
 volumes:
-  python3-vpn:
+  python3:
     driver: local
