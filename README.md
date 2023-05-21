@@ -1,5 +1,5 @@
-# docker-win11-python
-DockerでPython実行環境を構築（Windows11）
+# docker-win-python
+DockerでPython実行環境を構築（Windows）
 
 ## 環境
 - Windows 11 Pro 22H2
